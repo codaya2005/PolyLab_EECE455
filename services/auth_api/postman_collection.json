@@ -1,0 +1,62 @@
+{
+  "info": {
+    "name": "Auth API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Signup",
+      "request": {
+        "method": "POST",
+        "url": "{{BASE_URL}}/auth/signup",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"email\": \"user@example.com\", \"password\": \"GoodPass1!\"}"
+        }
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "url": "{{BASE_URL}}/auth/login",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"email\": \"user@example.com\", \"password\": \"GoodPass1!\"}"
+        }
+      }
+    },
+    {
+      "name": "Get CSRF",
+      "request": {
+        "method": "GET",
+        "url": "{{BASE_URL}}/auth/csrf"
+      }
+    },
+    {
+      "name": "Submit Instructor Request",
+      "request": {
+        "method": "POST",
+        "url": "{{BASE_URL}}/roles/requests"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "BASE_URL",
+      "value": "http://127.0.0.1:8000"
+    }
+  ]
+}
