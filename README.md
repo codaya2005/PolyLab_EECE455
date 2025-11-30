@@ -3,7 +3,7 @@
 ## Option 1: Using the `.bat` file (Recommended)
 1. Open the project folder.
 2. If you have a suitable Python version installed:
-   - Run **Start-PolyLab.bat** from the project root.  
+   - Run **Start-PolyLab.bat** from the project root (just clicking on this file)
    - This will automatically start the backend and show you the local link.
 3. If not:
    - Use the bundled Python by running **Start-PolyLab.bat** inside the `bundle` folder.
