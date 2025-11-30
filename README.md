@@ -16,7 +16,6 @@ Health/docs: http://127.0.0.1:8000/health , http://127.0.0.1:8000/docs
 3) Frontend install/run:
 ```
 cd Frontend
-cp .env.example .env   # or set VITE_API_BASE_URL_AUTH=http://localhost:8000
 npm install
 npm run dev -- --host 0.0.0.0 --port 5173
 ```
