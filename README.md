@@ -141,4 +141,4 @@ We thank the EECE Department and **Professor Ali l Hussein** for continuous supp
 
 ➡️ Live Platform: https://polylab-website.onrender.com  
 ➡️ Demo Video: https://www.youtube.com/watch?v=tLylCZbrl5U&t=130s  
-➡️ GitHub Repository: https://github.com/Joud158/PolyLab.git
+➡️ GitHub Repository of the deployed version: https://github.com/Joud158/PolyLab.git
