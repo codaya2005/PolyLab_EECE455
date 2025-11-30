@@ -1,7 +1,5 @@
 # PolyLab Project - EECE455
 
-# PolyLab Project – EECE455
-
 ## Option 1: Using the `.bat` file (Recommended)
 1. Open the project folder.
 2. If you have a suitable Python version installed:
